@@ -1,11 +1,25 @@
 body {
     width: 75%;
     margin: 0 auto;
+    background-color: azure;
 }
 
-header, nav, main, section, aside, footer {
+header, nav, section, aside, footer {
     padding: 5px;
     margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+main {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: azure;
 }
 
 section, aside {
@@ -16,7 +30,8 @@ section {
     width: 70%
 }
 aside {
-    width: 20%;
+    width: 25%;
+    float: right;
 }
 
 footer {
@@ -26,7 +41,7 @@ footer {
 .button {
     width: 15%;
     height: 30px;
-    background-color: floralwhite;
+    background-color: azure;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -34,6 +49,8 @@ footer {
 img {
     width: 100%;
     align-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .alignstuff {
     margin: auto;
