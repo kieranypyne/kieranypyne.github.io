@@ -22,3 +22,20 @@ aside {
 footer {
     clear: both;
 }
+
+.button {
+    width: 15%;
+    height: 30px;
+    background-color: floralwhite;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100%;
+    align-content: center;
+}
+.alignstuff {
+    margin: auto;
+    text-align: center;
+}
