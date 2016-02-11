@@ -35,31 +35,25 @@ p {
 }
 
 #firstimg {
-    display: inline-block;
     float: right;
 }
 
 #rwc {
     padding-left: 10px;
     height: 270px;
-    display: inline-block;
-    width: 60%;
-    position: relative;
 }
 
 #bluhbluh {
-    padding-top: 10%;
+    padding-top: 80px;
 }
 
 /*short screaming break*/
 
 #imgtwo {
     float: left;
+    padding-right: 10px;
 }
 
 #aotf {
-    float: left;
-    width: 60%;
-    padding-left: 10px;
-    padding-top: 80px
+    padding-top: 100px;
 }
