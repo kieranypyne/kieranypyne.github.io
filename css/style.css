@@ -1,5 +1,6 @@
 h2, p, h3, a{
     font-family: sans-serif;
+    color: #ADFFFF;
 }
 
 #info {
@@ -19,7 +20,8 @@ body {
 
 a {
     text-decoration: none;
-    color: #FFFC24;
+    color: #ADFFFF;
+     margin: 11px;
 }
 
 .homework {
@@ -53,11 +55,16 @@ h3 {
     padding-right: 5px;
 }
 
-a {
-    margin: 11px;
-}
-
 img {
     border: 3px solid;
     border-radius: 300px;
+    height: 272px;
+}
+
+#imgdiv {
+    height: 272px;
+    width: 272px;
+    border-radius: 300px;
+    overflow: hidden;
+    margin: auto;
 }
