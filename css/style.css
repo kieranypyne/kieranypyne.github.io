@@ -6,6 +6,7 @@ h2, p, h3, a{
 #info {
     background-color: #3E89BE;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 body {
@@ -13,15 +14,17 @@ body {
     text-align: center;
 }
 
-#me {
-    padding: 20px;
+#info > div {
+    padding-top: 20px;
     text-align: center;
+    border-radius: 5px;
+    padding-bottom: 30px;
 }
 
 a {
     text-decoration: none;
     color: #ADFFFF;
-     margin: 11px;
+    margin: 11px;
 }
 
 .homework {
@@ -29,22 +32,13 @@ a {
     width: 200px;
     height: 200px;
     display: inline-block;
-    margin-left: 20px;
-    margin-right: 50px;
-    margin-top: 50px;
+    margin: 30px 50px 10px 40px;
     border: 3px solid #3E89BE;
     text-align: center;
+    border-radius: 5px
 }
 
-/*
-.meatyinsides {
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-}
-*/
-
-.meatyinsides {
+.homework > div {
     background-color: #3E89BE;
     padding-top: 1px;
 }
@@ -61,7 +55,7 @@ img {
     height: 272px;
 }
 
-#imgdiv {
+#info > div > div {
     height: 272px;
     width: 272px;
     border-radius: 300px;
