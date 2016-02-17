@@ -62,3 +62,6 @@ img {
     overflow: hidden;
     margin: auto;
 }
+p {
+    margin: 10px;
+}
