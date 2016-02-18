@@ -1,0 +1,83 @@
+* {
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+/*    outline: 1px solid red;*/
+}
+
+#nasa {
+    background-image: url("/AustinCodingAcademy_Spring2016/week3/Homework1/project/homework/img/nasa-background.jpg");
+    width: 850px;
+    height: 450px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+h1 {
+    padding: 20%;
+    font-size: 80px;
+    color: white;
+    font-weight: 800;
+}
+
+#grey {
+    background-color: #E6E6E6;
+    height: 324px;
+    width: 850px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+div > div {
+    float: left;
+    width: 270px;
+    height: inherit;
+}
+
+.clearfix: after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.push {
+    margin-right: 20px;
+}
+
+h4 {
+    font-weight: 800;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 240px;
+}
+
+input[type="submit"] {
+    width: 70px;
+    height: 30px;
+    background-color: #4D4D4D;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+input[name="message"] {
+    height: 70px;
+}
+
+.push > div {
+    margin-left: 10%;
+}

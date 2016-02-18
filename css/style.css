@@ -24,7 +24,6 @@ body {
 a {
     text-decoration: none;
     color: #ADFFFF;
-    margin: 11px;
 }
 
 .homework {
@@ -32,10 +31,9 @@ a {
     width: 200px;
     height: 200px;
     display: inline-block;
-    margin: 30px 50px 10px 40px;
     border: 3px solid #3E89BE;
     text-align: center;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .homework > div {
@@ -44,9 +42,8 @@ a {
 }
 
 h3 {
-    padding-left: 5px;
     text-align: center;
-    padding-right: 5px;
+    margin: absolute;
 }
 
 img {
@@ -63,5 +60,9 @@ img {
     margin: auto;
 }
 p {
-    margin: 10px;
+    margin: 0px 10px;
+}
+
+#problemchild {
+    
 }
