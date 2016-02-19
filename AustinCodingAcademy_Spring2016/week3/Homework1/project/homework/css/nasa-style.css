@@ -5,12 +5,16 @@
 /*    outline: 1px solid red;*/
 }
 
+body {
+    width: 850px;
+    margin: 0 auto;
+}
+
 #nasa {
     background-image: url("/AustinCodingAcademy_Spring2016/week3/Homework1/project/homework/img/nasa-background.jpg");
     width: 850px;
     height: 450px;
     text-align: center;
-    margin-left: 15%;
     margin-top: 20px;
 }
 
@@ -25,7 +29,6 @@ h1 {
     background-color: #E6E6E6;
     height: 324px;
     width: 850px;
-    margin-left: 15%;
     margin-top: 20px;
 }
 
