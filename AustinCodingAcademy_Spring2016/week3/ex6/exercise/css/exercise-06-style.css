@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+main {
+    width: 90%;
+    margin: 10px auto;
+}
+
+div {
+    float: left;
+    width: 31.3%;
+}
+
+div:nth-child(2) {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+img {
+    width: 100%;
+}
+
+h4 {
+    font-weight: 800;
+}
+
+div > div {
+    width 70px;
+    height: 40px;
+    border-style: hidden solid hidden hidden;
+    border-color: darkred;
+}
+
+div > div > p {
+    margin-top: 10px;
+}
+
+div > div:hover {
+    background-color: grey;
+    transform: rotate(720deg); 
+    transition: all 1s;
+}
