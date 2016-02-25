@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: sans-serif;
+    vertical-align: baseline;
+    color: white;
+
+}
+
+section {
+    float: left;
+}
+
+div:first-child {
+    background-image: url(../../img/featured-image-3.jpg);
+}
+
+div:nth-child(2) {
+    background-image: url(../../img/featured-image-4.jpg);
+}
+
+div {
+    margin: 5px;
+    background-size: 100%;
+    height: 370px;
+    background-repeat: no-repeat;
+    width: 260px;
+}
+
+section:nth-child(2) {
+    background-image: url(../../img/featured-image-5.jpg);
+    background-size: 100%;
+    height: 750px;
+    width: 530px;
+    background-repeat: no-repeat;
+}
+

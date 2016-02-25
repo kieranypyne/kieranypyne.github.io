@@ -1,0 +1,114 @@
+body {
+    width: 690px;
+    margin: auto;
+    font-family: "Helvetica", sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+main {
+    height: 300px;
+}
+
+main > div {
+    margin-right: 20px;
+    float: left;
+    width: 330px;
+    height: 280px;
+}
+
+aside {
+    float: left;
+}
+
+aside > div {
+    height: 70px;
+    width: 300px;
+}
+
+main > div > img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+aside > div > img {
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+}
+
+.grey {
+    background-color: #F7F7F7;
+    padding: 10px;
+}
+
+aside > div:first-child {
+    margin-bottom: 15px;
+}
+
+aside > div:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+div > p:nth-child(3) {
+    
+}
+
+.headline {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bottomheadline {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+a {
+    float: right;
+    font-size: 11px;
+    color: #91A187;
+}
+
+.bottom > div {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 33%;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #ECECEC;
+}
+
+.bottom {
+    border-style: solid none solid none;
+    margin-top: 50px;
+    border-color: #ECECEC;
+    border-width: 1px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+#movebitch {
+    margin-left: 25px;
+}
+
+#problemchild {
+    border: none;
+}
+
+header {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
