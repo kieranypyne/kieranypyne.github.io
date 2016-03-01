@@ -1,0 +1,205 @@
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 79px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 3px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    padding: 1% 1%;
+    width: 98%;
+}
+
+h1 {
+    font-size: 1.6em;
+    float: left;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+ul {
+    float: right;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+li > a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: .75em;
+    margin: 5px;
+}
+
+li > a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+    transition: all 2s;
+}
+
+main {
+    background-image: url(../img/wine-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+main > div {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 40vh 0vh;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+#quote {
+    font-size: .8em;
+    font-style: italic;
+    padding-top: 70px;
+}
+
+.twobox {
+    width: 100%;
+    
+}
+
+.twobox div:first-child {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.twobox div:nth-child(2) {
+    width: 40%;
+    float: left;
+}
+
+.twobox img {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: -5px;
+}
+
+h3 {
+    font-family: serif;
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 30px 40px;
+}
+
+#onebox > p:first-child {
+    color: #C7C8C7;
+    font-size: .7em;
+    font-weight: 800;
+    padding-top: 20%;
+}
+
+#onebox > p:nth-child(3) {
+    font-size: .8em;
+    padding: 0px 40px;
+}
+
+#darkbox2 {
+    background-image: url(../img/wine13.jpg);
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+#darkbox2 > div {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 25vh 0vh;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+#darkbox2 > div > p {
+    font-size: .8em;
+    padding-top: 30px;
+}
+
+.threebox > div {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.threebox > div > img {
+    width: 20%;
+}
+
+h5 {
+    font-family: serif;
+    font-size: 1.5em;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.threebox > div > p {
+    font-size: .8em;
+    padding: 10px 60px 10px
+}
+
+div > a {
+    padding: 5px 20px;
+    background-color: #91A05D;
+    color: white;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+div > a:hover {
+    background-color: #74804a;
+    transition: all 1s;
+}

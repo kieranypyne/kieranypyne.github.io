@@ -1,0 +1,14 @@
+@Font-face {
+    font-family: Dry;
+    src: url(../fonts/Dry%20Brush.ttf);
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Dry';
+}
