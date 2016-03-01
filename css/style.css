@@ -34,6 +34,8 @@ a {
     border: 3px solid #3E89BE;
     text-align: center;
     border-radius: 5px;
+    float: left;
+    margin: 2%
 }
 
 .homework > div {
@@ -63,6 +65,16 @@ p {
     margin: 0px 10px;
 }
 
-#problemchild {
-    
+.problemchild {
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
