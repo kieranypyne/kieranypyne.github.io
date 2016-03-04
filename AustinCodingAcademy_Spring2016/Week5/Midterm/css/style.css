@@ -1,0 +1,67 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: black;
+    height: 7vh;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    padding-top: 5px;
+}
+
+main {
+    background-image: url(../img/pizza.png);
+    background-size: cover;
+    height: 50vh;
+}
+
+#about {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 9vh 0vh 6vh 0vh;
+}
+
+#about > p {
+    font-size: 1.3em;
+    padding-bottom: 20vh;
+}
+
+.threebox {
+    height: 50vh;
+}
+
+.threebox > div {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+div > div {
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+    margin: auto;
+}
+
+div > img {
+    height: 100%;
+}

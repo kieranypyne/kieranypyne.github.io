@@ -1,0 +1,45 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+nav {
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.7em;
+    float: left;
+}
+
+nav > div {
+    float: right;
+    padding: 10px 20px;
+}
+
+nav > div > a {
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    background:url(../img/simple-pikachu-wallpaper-4355-4586-hd-wallpapers.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-top: 35vh;
+}

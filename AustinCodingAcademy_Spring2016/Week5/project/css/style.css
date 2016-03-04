@@ -1,0 +1,183 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    width: 100%;
+}
+
+nav:hover {
+    background: url(../img/giphy.gif);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 1.7em;
+    float: left;
+    padding-left: 10px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #FFFFFF;
+    -webkit-text-fill-color: #000000;
+}
+
+nav > div {
+    float: right;
+    padding: 10px 20px;
+}
+
+nav > div > a {
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+main {
+    background:url(../img/simple-pikachu-wallpaper-4355-4586-hd-wallpapers.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2:first-child {
+    padding-top: 20vh;
+    color: red;
+    font-weight: 700
+}
+
+h2:nth-child(2) {
+    color: black;
+}
+
+h2:nth-child(3) {
+    font-weight: 300;
+}
+
+main > p {
+    font-size: 1em;
+    padding: 30px 50px;
+    width: 40%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main > div {
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    margin-left: 50px;
+    border: 1px solid black;
+}
+
+a > img {
+    width: 100%;
+    margin-top: -50px;
+}
+
+.bestpoke {
+    height: 50vh;
+    background: #db4626;
+    overflow: hidden;
+}
+
+section > img:first-child {
+    height: 80%;
+    float: left;
+    padding: 5vh;
+}
+
+.best {
+    height: 30%;
+    float: right;
+    margin-top: 33vh;
+}
+
+h3 {
+    margin-top: 15vh;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    text-transform: capitalize;
+    padding-bottom: 2vh;
+    font-style: italic;
+}
+
+.bestpoke > p {
+    text-align: right;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+
+.fourbox {
+    background-color: #CECECE;
+    height: 70vh;
+}
+
+.fourbox > div {
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+.fourbox > div > img {
+    width: 100%;
+}
+
+
+.fourbox > div:first-child {
+    background-color: #28392F;
+    color: #72C599;
+}
+
+.fourbox > div:nth-child(2) {
+    background-color: #F48921;
+    color: #EE1C25;
+}
+
+.fourbox > div:nth-child(3) {
+    background-color: #6DB5DD;
+    color: #3179AB;
+}
+
+.fourbox > div:nth-child(4) {
+    background-color: #F6E27E;
+    color: #F2BB61;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+body > div {
+    height: 20vh;
+    text-align: center;
+    overflow: hidden;
+    background-color: #444444;
+}
+
+#CYS {
+    font-size: 5em;
+    letter-spacing: 20px;
+    padding: 1vh;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+/*    text-decoration: underline;*/
+    font-weight: 800;
+}
