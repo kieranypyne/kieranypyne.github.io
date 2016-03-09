@@ -35,7 +35,7 @@ h1 {
     -webkit-text-fill-color: #000000;
 }
 
-nav > div > div {
+.links {
     float: right;
     padding: 10px 20px;
 }
@@ -109,14 +109,8 @@ section > img:first-child {
     padding: 5vh;
 }
 
-.best {
-    height: 30%;
-    float: right;
-    margin-top: 33vh;
-}
-
 h3 {
-    margin-top: 15vh;
+    padding-top: 17vh;
     font-family: 'Roboto Slab', serif;
     font-size: 2em;
     text-transform: capitalize;
@@ -124,7 +118,12 @@ h3 {
     font-style: italic;
 }
 
-.bestpoke > p {
+.bestpoke > div {
+    height: 100%;
+    width: 90%;
+}
+
+.bestpoke > div > p {
     text-align: right;
     font-family: 'Roboto Slab', serif;
     font-style: italic;
@@ -230,7 +229,7 @@ li {
 }
 
 .bigfinish {
-    height: 50vh;
+    height: 60vh;
     background-color: red;
     border: 10px black;
     border-style: solid none none none;
@@ -270,4 +269,17 @@ h6 {
     background: #FF0000;
     color: black;
     transition: 2s all ease-in-out;
+}
+
+/*Media Queries*/
+
+@media (max-width: 600px) {
+    
+    h1 {
+        margin-left: 20px;
+    }
+    
+    .links {
+        clear: both;
+    }
 }
