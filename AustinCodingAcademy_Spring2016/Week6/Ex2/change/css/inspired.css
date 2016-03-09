@@ -1,0 +1,73 @@
+body {
+    font-family: serif;
+}
+
+main {
+    background-image: url(../img/bg.jpg);
+    height: 70vh;
+    background-size: cover;
+    color: white;
+    background-position: center;
+}
+
+section {
+    height: 30vh;
+    float: left;
+    width: 40%;
+    background-color: #F7F7F7;
+    padding: 0% 5%;
+}
+
+#inspocrap {
+    padding: 20vh 8vh;
+    width: 30%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+#inspocrap > p {
+    font-size: .7em;
+    font-family: sans-serif;
+}
+
+h2 {
+    padding: 1em 0em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+section > p {
+    font-size: .8em;
+    padding-right: 3em;
+    color: #AEB2B5;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        background-image: url(../img/bg2.jpg);
+        height: 120vh;
+        overflow: hidden;
+    }
+    section {
+        height: 50vh;
+        float: none;
+        width: 90%;
+        overflow: hidden;
+    }
+    #inspocrap {
+        width: 50%;
+    }
+    #inspocrap > p {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    section > p {
+        font-size: 1em;
+    }
+}

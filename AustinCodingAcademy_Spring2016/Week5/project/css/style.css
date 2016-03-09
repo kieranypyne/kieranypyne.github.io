@@ -132,8 +132,6 @@ h3 {
 .fourbox {
     background-color: #CECECE;
     height: 72vh;
-    border: 10px black;
-    border-style: solid none solid none;
 }
 
 .fourbox > div {
@@ -178,7 +176,8 @@ h4 {
     height: 20vh;
     text-align: center;
     overflow: hidden;
-    background-color: ;
+    border: 10px black;
+    border-style: solid none solid none;
 }
 
 #CYS {
@@ -202,7 +201,7 @@ li {
 }
 
 .twobox {
-    height: 50vh;
+    height: 60vh;
     text-align: center;
 }
 
@@ -213,7 +212,7 @@ li {
 }
 
 .twobox > div > img {
-    height: 60%;
+    height: 45vh;
     padding: 5vh 0vh 2vh 0vh;
 }
 
@@ -242,6 +241,7 @@ h6 {
     font-size: 5em;
     font-family: 'Roboto Slab', serif;
     padding-top: 5vh;
+    font-weight: bold;
 }
 
 .bigfinish > p {
@@ -282,4 +282,6 @@ h6 {
     .links {
         clear: both;
     }
+    
+    
 }
