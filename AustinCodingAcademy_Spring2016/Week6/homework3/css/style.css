@@ -6,15 +6,16 @@
 h1 {
     font-size: 4em;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin: 20px 0px;
     font-family: "Covered By Your Grace";
     font-style: italic;
     font-weight: bold;
-    text-shadow: 2px 2px 0px rgba(254, 128, 153, 1);
+    text-shadow: 2px 2px 0px rgba(254, 128, 153, 1),
+                 4px 4px 0px rgba(0, 255, 255, 1);
 }
 
 #mycarousel {
-    height: 80vh;
+/*    height: 80vh;*/
     overflow: hidden;
     padding: 0px;
 }
@@ -31,8 +32,8 @@ h1 {
     top: -90px;
 }
 
-.item > .BMO {
-    top: -30px;
+.item > img {
+    
 }
 
 img {
@@ -77,6 +78,7 @@ img {
     margin: 0% 20%;
 }
 
+/*
 .row3 {
     height: 110vh;
     margin-bottom: 2vh;
