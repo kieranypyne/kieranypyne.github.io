@@ -15,7 +15,7 @@ h1 {
 }
 
 #mycarousel {
-/*    height: 80vh;*/
+    height: 80vh;
     overflow: hidden;
     padding: 0px;
 }
@@ -27,14 +27,6 @@ h1 {
 
 /*this is really hacky and im not happy with that*/
 
-.item > .jakethedog {
-    position: relative;
-    top: -90px;
-}
-
-.item > img {
-    
-}
 
 img {
     height: 100%;
@@ -78,7 +70,7 @@ img {
     margin: 0% 20%;
 }
 
-/*
+
 .row3 {
     height: 110vh;
     margin-bottom: 2vh;
