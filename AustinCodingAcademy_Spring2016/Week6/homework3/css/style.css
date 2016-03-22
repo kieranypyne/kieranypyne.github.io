@@ -1,3 +1,39 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #E2B02D;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #1482BF;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/*scrollbar end*/
+
 .headfoot {
     text-align: center;
     height: 15vh;
@@ -10,8 +46,8 @@ h1 {
     font-family: "Covered By Your Grace";
     font-style: italic;
     font-weight: bold;
-    text-shadow: 2px 2px 0px rgba(254, 128, 153, 1),
-                 4px 4px 0px rgba(0, 255, 255, 1);
+    text-shadow: 2px 2px 0px #E2B02D,
+                 4px 4px 0px #1482BF;
 }
 
 #mycarousel {
