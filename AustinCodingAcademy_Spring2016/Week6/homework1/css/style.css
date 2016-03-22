@@ -1,0 +1,89 @@
+body {
+    font-family: serif;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+main {
+    background-image: url(../img/sub_header_home.jpg);
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    text-align: center;
+}
+
+main > div {
+    background: rgba (0, 0, 0, .8);
+}
+
+h1 {
+    font-size: 3.5em;
+    padding: 25vh 0vh 5vh 0vh;
+}
+
+.mainp {
+    font-family: sans-serif;
+}
+
+section {
+    height: 30vh;
+    text-align: center;
+}
+
+.tinydivs {
+    float: left;
+    width: 25%;
+}
+
+.tinydivs > img {
+    padding: 2vh 0vh;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+/*tablet stuff*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 4em;
+        padding: 25vh 3vh 5vh 3vh;
+    }
+    
+    section {
+        height: 100%;
+    }
+    
+    .tinydivs {
+        width: 50%;
+        margin-bottom: 10vh;
+    }
+}
+
+/*phone stuff*/
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 4em;
+        padding: 20vh 3vh 5vh 3vh;
+    }
+    
+    section {
+        height: 100%;
+    }
+    
+    .tinydivs {
+        width: 100%;
+        margin-bottom: 10vh;
+    }    
+}

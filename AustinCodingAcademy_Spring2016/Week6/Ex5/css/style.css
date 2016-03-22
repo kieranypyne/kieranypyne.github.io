@@ -1,0 +1,50 @@
+.my_header {
+    background-color: cadetblue;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.my_nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkseagreen;
+}
+
+.my_nav ul {
+    margin: 20px 0px;
+    padding-left: 0px;
+}
+
+li a {
+    color: hotpink;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.my_content {
+    background-color: aqua;
+}
+
+img {
+    width: 100%;
+}
+
+.my_content > div {
+    background-color: chartreuse;
+}
+
+.lady {
+    overflow: hidden;
+    height: 100%;
+}
+
+.lady img {
+    width: 100%;
+}
+
+.my_content p {
+    
+}
