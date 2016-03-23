@@ -58,6 +58,7 @@ h1 {
 
 .secondrow {
     margin-bottom: 5vh;
+    height: 80vh;
 }
 
 
@@ -182,4 +183,12 @@ img {
 /*
 #1482BF Finn
 #E2B02D Jake
+
+media query time
 */
+
+@media (min-width: 768px) and (max-width:992px) {
+    #mycarousel {
+        height: auto;
+    }
+}
