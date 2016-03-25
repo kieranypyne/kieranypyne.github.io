@@ -1,0 +1,33 @@
+.my_logo {
+    height: 50px;
+}
+
+.my_header {
+    background-color: white;
+    padding: 10px 0px;
+}
+
+#my_nav {
+    background-color: red;
+    color: white;
+}
+
+#whitelinks {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: red;
+}
+
+/*carousel*/
+
+#carousel_ex {
+    height: 465px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    top: 0%;
+    font-size: 2em;
+}
