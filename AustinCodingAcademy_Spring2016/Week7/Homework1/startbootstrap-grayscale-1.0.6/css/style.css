@@ -1,0 +1,75 @@
+.redheart {
+    color: rgba(255, 255, 0, 1);
+}
+
+.nav_words {
+    color: cyan;
+}
+
+ul > li > .nav_words {
+    color: cyan;
+}
+
+.navbar-custom.top-nav-collapse {
+    border-bottom: 1px solid rgba(255, 255, 0, 1);
+    background: rgba(50, 50, 50, 1);
+}
+
+.introdog {
+    margin: 0px;
+}
+
+.small_cat {
+    font-size: 15px;
+}
+
+.fa-paw {
+    font-size: 39px;
+}
+
+.intro {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, rgba(20, 20, 20, 1) 102%), url('../img/intro-bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.download-section {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, rgba(20, 20, 20, 1) 100%), url('../img/downloads-bg.jpg') no-repeat center;
+}
+
+body {
+    background-color: rgba(20, 20, 20, 1);
+}
+
+#about {
+    background-color: rgba(20, 20, 20, 1);
+}
+
+#freedog {
+    background-color: rgba(20, 20, 20, 1);
+}
+
+#where {
+    background-color: rgba(20, 20, 20, 1);
+}
+
+a {
+    color: rgba(255, 255, 0, 1);
+}
+
+a:hover {
+    color: rgba(255, 130, 0, 1);
+}
+
+.btn-default {
+    color: cyan;
+    border-color: cyan;
+}
+
+.btn-default:hover {
+    color: white;
+    background-color: cyan;
+}
+
+footer {
+    padding: 10px;
+}

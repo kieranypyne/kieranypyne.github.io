@@ -34,6 +34,10 @@
 
 /*scrollbar end*/
 
+#MyNav {
+    background-color: white;
+}
+
 .headfoot {
     text-align: center;
     height: 15vh;

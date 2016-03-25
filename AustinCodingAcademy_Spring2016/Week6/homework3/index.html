@@ -27,8 +27,65 @@
 
 <body>
 
-    <div class="container-fluid">
+    <nav id="MyNav" class="navbar navbar-default">
 
+        <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+
+        <div class="navbar-header">
+
+            <a href="#" class="navbar-brand">The Land of Ooo</a>
+
+        </div>
+
+        <div id="nav_collapse" class="collapse navbar-collapse">
+
+
+            <ul class="nav navbar-nav">
+
+                <li><a href="#" class="active">Page 1</a></li>
+                <li class="dropdown"><a href="#" data-target="dropdown">Page 2 <span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+
+                        <li class="dropdown-header">Heading</li>
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li class="divider" role="separator"></li>
+                        <li><a href="#">Item 3</a></li>
+
+                    </ul>
+
+                </li>
+                <li><a href="#">Page 3</a></li>
+
+            </ul>
+
+            <form class="navbar-form navbar-right">
+
+                <div class="form-group">
+
+                    <span class="glyphicon glyphicon-search"></span>
+                    <input class="form-control" type="text" placeholder="Search">
+                    <button class="btn btn-alert">Submit</button>
+
+                </div>
+
+            </form>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">New User</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+    
+    <div class="container-fluid">
+        
         <div class="row headfoot">
 
             <div class="col-xs-12">
@@ -59,7 +116,7 @@
                         <img id="sliderpic" class="jakethedog" src="img/jakeface.jpg" alt="Jake The Dog">
                     </div>
                     <div class="item">
-                        <img  id="sliderpic" src="img/bmoface.jpg" alt="BMO The Robot">
+                        <img id="sliderpic" src="img/bmoface.jpg" alt="BMO The Robot">
                     </div>
                     <div class="item">
                         <img id="sliderpic" src="img/philface.jpg" alt="Dear God Why">
@@ -90,7 +147,7 @@
 
                 <div class="col-xs-12 princessc">
 
-                    <img src="img/Princess_Cookie.png" alt="Princess Cookie in his crown" class="col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1"/>
+                    <img src="img/Princess_Cookie.png" alt="Princess Cookie in his crown" class="col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1" />
 
                 </div>
 
