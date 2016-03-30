@@ -70,7 +70,7 @@ h1 {
 
 
 img {
-    height: 100%;
+    width: 100%;
 }
 
 .inhiding {
@@ -113,14 +113,12 @@ img {
 
 
 .row3 {
-    height: 110vh;
-    margin-bottom: 2vh;
+    height: 105vh;
 }
 
 .row3 > div:first-child {
     height: 100vh;
     padding: 0px;
-    margin-bottom: 5vh;
 }
 
 .poster {
@@ -174,7 +172,6 @@ img {
     height: 20vh;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 5vh;
 }
 
 .broquotes > p {
@@ -195,4 +192,26 @@ media query time
     #mycarousel {
         height: auto;
     }
+}
+
+section {
+    height:40vh;
+    overflow:auto;
+}
+
+.affix-top,.affix-bottom {
+    width:100%;
+    position:fixed;
+    display:block;
+}
+  
+.affix {
+    display:none;
+}
+
+
+.bg-1 {
+	background: url('../img/parallax.png') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
 }

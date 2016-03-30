@@ -155,8 +155,10 @@ section {
     float: left;
 }
 
+/*paralax attempt*/
+
 .bg {
-  background: url('/assets/example/bg_blueplane.jpg') no-repeat center center;
+  background: url('http://36.media.tumblr.com/6e5ea6f6de4224d26a80a283fe2e5a22/tumblr_ne9v6b9tlc1u05zw2o1_1280.jpg') no-repeat center center;
   position: fixed;
   width: 100%;
   height: 350px; /*same height as jumbotron */
