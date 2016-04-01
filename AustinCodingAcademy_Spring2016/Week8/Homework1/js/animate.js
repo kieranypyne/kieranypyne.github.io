@@ -6,7 +6,7 @@ $(document).ready(function(){
         
         var verticalScroll = $(this).scrollTop();
         
-        if(verticalScroll > 666) {
+        if(verticalScroll > 650) {
             
             $('.goodnight').addClass('darkgoodnight');
             
