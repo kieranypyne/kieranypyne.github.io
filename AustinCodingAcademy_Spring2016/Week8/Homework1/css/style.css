@@ -1,0 +1,93 @@
+body {
+    background-color: #181415;
+    font-family: "Roboto Slab";
+    color: white;
+}
+
+.nightvalecover {
+    overflow: hidden;
+}
+
+.imgwidth {
+    width: 100%;
+}
+
+.rows {
+    height: 90vh;
+    margin-top: 5vh;
+}
+
+.fourbox {
+    height: 45vh;
+    overflow: hidden;
+}
+
+.imgheight {
+    height: 100%;
+}
+
+.fourbox p {
+    font-size: 15px;
+    padding: 30px;
+    letter-spacing: 1px;
+    
+}
+
+.microP {
+    font-size: 40px;
+}
+
+.fourboximg {
+    padding: 0px;
+}
+
+.WTNV {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Fjalla One";
+}
+
+.bigbox2 {
+    overflow: hidden;
+}
+
+.arbys {
+    
+}
+
+.cloudthing {
+    color: #94288E;
+    padding: 10% 10% 0% 10%;
+}
+
+.carimg {
+    height: 90vh;
+}
+
+.the_sky {
+    font-family: "Pacifico";
+    font-size: 30px;
+    font-style: italic;
+}
+
+.row3 {
+    margin: 5vh 0vh;
+}
+
+.goodnightNV {
+    background-color: #94288E;
+}
+
+h1 {
+    font-family: "Pacifico";
+    padding: 5vh;
+}
+
+.goodnight {
+    font-weight: bold;
+}
+
+.darkgoodnight {
+    color: #181415;
+    transition: all 2s;
+}

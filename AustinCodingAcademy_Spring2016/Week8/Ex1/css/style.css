@@ -1,0 +1,15 @@
+.my_container {
+    height: 1200px;
+}
+
+#pokeball {
+    height: 100px;
+    margin-top: 400px;
+}
+
+.my_second {
+    padding: 50px 0px;
+    background-color: chartreuse;
+    color: firebrick;
+}
+
