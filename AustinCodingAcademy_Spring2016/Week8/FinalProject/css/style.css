@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Graphique;
+    src: url(../fonts/GraphiqueProNext-Comp.otf);
+}
+
+body {
+    color: white;
+    background-color: #222222
+}
+
+#my_nav {
+    background: transparent;
+    margin: 0px;
+    border-radius: 0px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #10D3DE;
+}
+
+.dropdown-menu {
+    background-color: #111111;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    #my_nav.top-nav-collapse {
+        padding: 0;
+        background-color: #111111;
+        border-bottom: 1px solid rgba(200, 200, 200, .3);
+    }
+    
+    #whitelinks {
+        color: white;
+    }
+}
+
+#whitelinks {
+    color: #10D3DE;
+    transition: all 1s ease;
+}
+
+#whitelinks:hover {
+    color: white;
+    background: rgba(225, 225, 225, 1)
+}
+
+.highlight {
+    color: #10D3DE;
+    font-style: italic;
+}
+
+h1 {
+    margin: 150px 0px 0px 20px;
+    font-family: 'Graphique';
+    font-size: 9em;
+    color: #10D3DE;
+}
+
+.eyecatch {
+    margin-left: 40px;
+    font-family: Teko;
+    font-size: 2em;
+}
+
+.corpratebabble {
+    margin-left: 40px;
+    margin-right: 500px;
+    font-family: serif;
+}
+
+.row1 {
+/*    margin-top: 50px;*/
+    height: 700px;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, rgba(0, 0, 0, 1) 100%), url(../img/background.gif);
+    background-size: cover;
+}
+
+.row2 {
+    background-color: #222222;
+}
+
+.generilogodiv {
+    margin-top: 100px;
+    background-color: #111;
+    border-radius: 200px 0px 0px 200px;
+    height: 600px;
+    opacity: 0.5;
+    transition: all 2s;
+}
+
+.generilogo {
+    width: 100%;
+    margin: 160px 0px;
+    opacity: 0.5;
+    transition: all 5s ease-in-out;
+}
+
+.generilogodiv:hover {
+    opacity: 1;
+    transition: all 2s;
+}
+
+.generilogo:hover {
+    opacity: 1;
+    transition: opacity 5s ease-in-out;
+    transform: rotate(720deg);
+    transition: transform 5s ease-in-out;
+}
+
+.sixbubbles {
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: 20px;
+    transition: all 2s ease-in-out;
+}
+
+.imganimate {
+    width: 300px;
+    height: 300px;
+}
+
+.sixbubbles:hover {
+    border-radius: 0%;
+    transition: border-radius 2s ease-in-out;
+}
+
+a.hovertext {
+    position: relative;
+    width: 500px;
+    text-decoration: none !important;
+    text-align: center;
+}
+
+a.hovertext:after {
+    content: attr(title);
+    position: absolute;
+    left: -90px;
+    bottom: 100px;
+    padding: 0.5em 20px;
+    width: 460px;
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+    font-size: 3em;
+    font-family: 'Teko';
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+
+a.hovertext:hover:after,
+a.hovertext:focus:after {
+    opacity: 1.0;
+}
+
+.row3 {
+    min-height: 400px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-family: 'Teko';
+    font-size: 4em;
+}
+
+.businessbabble p {
+    font-family: serif;
+    padding-left: 20px;
+}
+
+.world_img {
+    opacity: .7;
+    border-radius: 50%;
+}
+
+/*Parallax stuff*/
+
+.affix-top,
+.affix-bottom {
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+.affix {
+    display: none;
+}
+
+.bg-1 {
+    background: url('../img/parallax.jpg') repeat fixed;
+    background-size: contain;
+    height: 600px;
+    overflow: auto;
+}
+/*parallax stuff end*/
+
+.parallax-innards {
+    height: 600px;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, rgba(0, 0, 0, 1) 100%);
+    background-size: contain;
+}
+
+#My_carousel {
+    padding: 0px;
+}
+
+.footer {
+    background: #111111
+}
+
+.footer > p {
+    padding: 10px;
+    margin: 0px;
+}
