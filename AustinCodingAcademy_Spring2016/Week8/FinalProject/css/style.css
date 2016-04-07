@@ -35,10 +35,11 @@ body {
         background-color: #111111;
         border-bottom: 1px solid rgba(200, 200, 200, .3);
     }
-    
-    #whitelinks {
-        color: white;
-    }
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: darkcyan;
 }
 
 #whitelinks {
@@ -47,8 +48,8 @@ body {
 }
 
 #whitelinks:hover {
-    color: white;
-    background: rgba(225, 225, 225, 1)
+    color: yellow;
+    background: rgba(225, 225, 225, .3);
 }
 
 .highlight {
@@ -86,40 +87,12 @@ h1 {
     background-color: #222222;
 }
 
-.generilogodiv {
-    margin-top: 100px;
-    background-color: #111;
-    border-radius: 200px 0px 0px 200px;
-    height: 600px;
-    opacity: 0.5;
-    transition: all 2s;
-}
-
-.generilogo {
-    width: 100%;
-    margin: 160px 0px;
-    opacity: 0.5;
-    transition: all 5s ease-in-out;
-}
-
-.generilogodiv:hover {
-    opacity: 1;
-    transition: all 2s;
-}
-
-.generilogo:hover {
-    opacity: 1;
-    transition: opacity 5s ease-in-out;
-    transform: rotate(720deg);
-    transition: transform 5s ease-in-out;
-}
-
 .sixbubbles {
     height: 280px;
     border-radius: 50%;
     overflow: hidden;
     padding: 0px;
-    margin-top: 20px;
+    margin-top: 40px;
     transition: all 2s ease-in-out;
 }
 
@@ -164,6 +137,10 @@ a.hovertext:focus:after {
 }
 
 .row3 {
+    margin-top: 40px;
+}
+
+.row4 {
     min-height: 400px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -176,7 +153,7 @@ h2 {
 }
 
 .businessbabble p {
-    font-family: serif;
+    font-family: 'Slabo 27px';
     padding-left: 20px;
 }
 
@@ -201,26 +178,123 @@ h2 {
 .bg-1 {
     background: url('../img/parallax.jpg') repeat fixed;
     background-size: contain;
-    height: 600px;
+    height: 200px;
+    overflow: auto;
+}
+
+.bg-2 {
+    background: url('../img/parallax2.jpg') repeat fixed;
+    background-size: contain;
+    height: 200px;
     overflow: auto;
 }
 /*parallax stuff end*/
 
-.parallax-innards {
-    height: 600px;
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, rgba(0, 0, 0, 1) 100%);
-    background-size: contain;
+.row6 {
+    margin: 40px 0px;
+}
+
+h3 {
+    font-family: 'Teko';
+    font-size: 3em;
+}
+
+.morebusiness > p {
+    margin-left: 20px;
+    font-family: 'Slabo 27px';
+    font-size: 1.3em;
 }
 
 #My_carousel {
     padding: 0px;
 }
 
+.carousel-caption {
+    color: #111;
+    font-size: 4.7em;
+    font-family: 'Teko';
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+}
+
+.row7 {
+    background: #111111;
+}
+
+.ContactUs {
+    padding: 10px;
+    margin: 0px;
+    font-size: 4em;
+    font-family: 'Teko';
+    letter-spacing: 8px;
+}
+
+.row8 {
+    margin: 40px;
+}
+
+.shinybutton {
+    overflow: hidden;
+    padding: 0px;
+}
+
+.ContactBttn {
+    display: block;
+	overflow: hidden;
+    font-size: 2em;
+    padding: 23px 0px 20px 0px;
+    margin: 0;
+    border: 4px solid rgba(255, 255, 255, .4);
+    color: white;
+    text-decoration: none;
+}
+
+.ContactBttn:hover {
+    text-decoration: none;
+    color: white;
+    border: 4px solid rgba(255, 255, 255, 1);
+}
+
+.swipe1 {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 15px;
+    height: 200%;
+    background: white;
+    transform: rotate(30deg);
+    transition: all .4s ease-out;
+}
+
+.swipe2 {
+    position: absolute;
+    top: -100%;
+    left: -150%;
+    width: 50%;
+    height: 250%;
+    background: white;
+    transform: rotate(30deg);
+    transition: all .4s ease-out;
+}
+
+.shinybutton:hover .swipe1 {
+    position: absolute;
+    left: 150%;
+    transition: all .5s ease-out;
+}
+
+.shinybutton:hover .swipe2 {
+    position: absolute;
+    left: 150%;
+    transition: all .7s ease-out;
+}
+
 .footer {
-    background: #111111
+    background: #111111;
 }
 
 .footer > p {
     padding: 10px;
     margin: 0px;
 }
+
+
