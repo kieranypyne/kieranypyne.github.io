@@ -1,6 +1,6 @@
 @font-face {
     font-family: Graphique;
-    src: url(../fonts/GraphiqueProNext-Comp.otf);
+    src: url(../fonts/ZefaniStencilRegular.otf);
 }
 
 body {
@@ -60,7 +60,7 @@ body {
 h1 {
     margin: 150px 0px 0px 20px;
     font-family: 'Graphique';
-    font-size: 9em;
+    font-size: 7em;
     color: #10D3DE;
 }
 
@@ -68,12 +68,13 @@ h1 {
     margin-left: 40px;
     font-family: Teko;
     font-size: 2em;
+    text-transform: capitalize;
 }
 
 .corpratebabble {
     margin-left: 40px;
     margin-right: 500px;
-    font-family: serif;
+    font-family: 'Slabo 27px';
 }
 
 .row1 {
@@ -155,6 +156,7 @@ h2 {
 .businessbabble p {
     font-family: 'Slabo 27px';
     padding-left: 20px;
+    font-size: 1.3em;
 }
 
 .world_img {
@@ -197,6 +199,7 @@ h2 {
 h3 {
     font-family: 'Teko';
     font-size: 3em;
+    text-transform: capitalize;
 }
 
 .morebusiness > p {
