@@ -25,11 +25,10 @@ body {
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
-
     #my_nav.top-nav-collapse {
         padding: 0;
         background-color: #111111;
@@ -78,7 +77,7 @@ h1 {
 }
 
 .row1 {
-/*    margin-top: 50px;*/
+    /*    margin-top: 50px;*/
     height: 700px;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, rgba(0, 0, 0, 1) 100%), url(../img/background.gif);
     background-size: cover;
@@ -164,6 +163,7 @@ h2 {
     border-radius: 50%;
 }
 
+
 /*Parallax stuff*/
 
 .affix-top,
@@ -190,6 +190,8 @@ h2 {
     height: 200px;
     overflow: auto;
 }
+
+
 /*parallax stuff end*/
 
 .row6 {
@@ -242,7 +244,7 @@ h3 {
 
 .ContactBttn {
     display: block;
-	overflow: hidden;
+    overflow: hidden;
     font-size: 2em;
     padding: 23px 0px 20px 0px;
     margin: 0;
@@ -255,6 +257,10 @@ h3 {
     text-decoration: none;
     color: white;
     border: 4px solid rgba(255, 255, 255, 1);
+}
+
+.ContactBttn:visited {
+    color: white;
 }
 
 .swipe1 {
@@ -270,7 +276,7 @@ h3 {
 
 .swipe2 {
     position: absolute;
-    top: -100%;
+    top: -90%;
     left: -150%;
     width: 50%;
     height: 250%;
@@ -300,4 +306,82 @@ h3 {
     margin: 0px;
 }
 
+@media (min-width: 767px) and (max-width: 992px) {
+    .corpratebabble {
+        margin-right: 400px;
+    }
+    .sixbubbles {
+        border-radius: 25%;
+    }
+    
+    .morebusiness {
+        margin-bottom: 40px;
+    }
+    
+    .shinybutton {
+        margin-top: 20px;
+    }
+    
+    a.hovertext:after {
+        content: attr(title) position: absolute;
+        left: -90px;
+        bottom: 100px;
+        padding: 0.5em 20px;
+        width: 460px;
+        text-decoration: none !important;
+        color: #fff;
+        opacity: 1;
+        font-size: 3em;
+        font-family: 'Teko';
+    }
+}
 
+@media (max-width:767px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    .corpratebabble {
+        margin-right: 200px;
+    }
+    
+    .sixbubbles {
+        border-radius: 25%;
+    }
+    
+    .imganimate {
+        width: 100%;
+    }
+    
+    a.hovertext:after {
+        content: attr(title) position: absolute;
+        left: -90px;
+        bottom: 100px;
+        padding: 0.5em 20px;
+        width: 460px;
+        text-decoration: none !important;
+        color: #fff;
+        opacity: 1;
+        font-size: 3em;
+        font-family: 'Teko';
+    }
+    
+    .morebusiness {
+        margin-bottom: 40px;
+    }
+    
+    .shinybutton {
+        margin-top: 20px;
+    }
+    
+    .swipe2 {
+    position: absolute;
+    top: -75%;
+    left: -150%;
+    width: 50%;
+    height: 250%;
+    background: white;
+    transform: rotate(30deg);
+    transition: all .4s ease-out;
+}
+}
