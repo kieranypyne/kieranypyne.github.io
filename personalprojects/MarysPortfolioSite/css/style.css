@@ -90,8 +90,12 @@ main {
 .carousel-control.right {
     right: -85px;
 }
-.modal-contents {
-    height: 100vh;
+.midtitle {
+   font-size: 3em;
+   font-family: "Handwriting";
+   text-align: center;
+   color: #F19AAB;
+   padding-top: 20px;
 }
 .portfolio-pics {
     height: 30vh;
