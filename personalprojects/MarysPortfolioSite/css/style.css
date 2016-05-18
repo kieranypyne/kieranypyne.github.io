@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Gafata;
+    src: url(../fonts/Gafata-Regular_Std.otf);
+}
+@font-face {
+    font-family: Handwriting;
+    src: url(../fonts/handwriting-draft_free-version.ttf);
+}
+.logo {
+    background-image: linear-gradient(rgba( 4, 65, 69, .2), rgba( 4, 65, 69, .2)), url("http://www.judepullen.com/designmodelling/files/2012/09/Copy-of-graph-paper-background.gif");
+    color: #21130A;
+    height: 100vh;
+}
+body {
+    font-family: "Gafata";
+    background-color: #F4ECE7;
+}
+.title {
+    margin-left: 20%;
+    margin-top: 15vh;
+    font-family: "Handwriting";
+}
+h1 {
+    font-size: 10em;
+}
+.logogloss {
+    font-size: 10em;
+    padding-left: 15%;
+}
+
+nav.affix-top {
+   position: static;
+   margin-top:30px;
+   width:228px;
+ }
+
+nav.affix {
+   position: fixed;
+   top:70px;
+   width:228px;
+ }
+
+.tinylogo {
+    margin-top: 20vh;
+    font-size: 2.7em;
+    font-family: "Handwriting";
+}
+main {
+    background-color: #21130A;
+}
+.navlinks {
+    width: 105%;
+    background-color: #F4ECE7;
+    position: relative;
+    left: 0px;
+    padding: 0px 20px;
+    z-index: 2;
+}
+.navlinks:hover {
+    left: 40px;
+    transition: all 2s ease;
+}
+
+.navlinks > a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #F19AAB;
+    transition: all 2s ease;
+}
+.navlinks > a:hover {
+    text-decoration: none;
+    color: #B0E1FF;
+    transition: all 2s ease;
+}
+
+#MyCarousel {
+    margin: 15vh 25vh;
+    height: 70.5vh;
+}
+.LandRButtons {
+    height: 70.5vh;
+}
+.carousel-control {
+    opacity: 1;
+    width: auto;
+}
+.carousel-control.left {
+    left: -84px;
+}
+.carousel-control.right {
+    right: -85px;
+}
+.modal-contents {
+    height: 100vh;
+}
+.portfolio-pics {
+    height: 30vh;
+    overflow: hidden;
+    margin-top: 5vh;
+    text-align: center;
+    transition: all .5s;
+}
+
+.portfolio-pics >  img {
+    width: 100%;
+}
+
+.process-pics {
+    height: 30vh;
+    overflow: hidden;
+    margin-top: 5vh;
+    text-align: center;
+    transition: all .5s;
+}
+
+.process-pics > img {
+    width: 100%;
+}
+
+.modal.portfolio {
+    height: 90vh;
+}
+
+.tempemail {
+    text-align: center;
+    color: #04858D;
+    font-family: "Handwriting";
+    padding: 100px 0px;
+    font-size: 3em;
+}
